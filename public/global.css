@@ -63,20 +63,6 @@ button:focus {
 }
 
 
-
-.input{
-    background-color: white;
-    overflow:hidden; height:auto; /*컨텐츠 추가시 자동으로 높이 크기 조절*/
-    min-height: 480px;
-    max-width: 450px;
-    margin: 0 auto;
-    border-radius: 24px;
-    box-shadow: 0px 4px 23px -4px rgba(0, 0, 0, 0.25);
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
 .loginBox{
     padding-top: 30px;
     background-color: transparent;
@@ -177,8 +163,14 @@ button:focus {
 .input{
 	background-color: white;
 	overflow:hidden; height:auto; /*컨텐츠 추가시 자동으로 높이 크기 조절*/
+	
+	height: 380px;
+	width: 450px;
+
+	/*
 	min-height: 480px;
 	max-width: 450px;
+	*/
 	margin: 0 auto;
 	border-radius: 24px;
 	box-shadow: 0px 4px 23px -4px rgba(0, 0, 0, 0.25);
@@ -299,4 +291,10 @@ button:focus {
 }
 .table_box tbody tr:hover{
     background-color: #adadad3c;
+}
+
+.justBox{
+	display:flex;
+	margin: 0px auto;
+	justify-content: center
 }
