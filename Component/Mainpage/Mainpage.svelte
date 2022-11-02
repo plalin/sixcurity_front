@@ -23,6 +23,7 @@
                                     <th>그룹명</th>
                                     <th>소속 인원수</th>
                                     <th>잔고</th>
+                                    <th>삭제</th>
                                 </tr>
                             </thead>
                             <tbody id="mytable">
@@ -30,11 +31,13 @@
                             </tbody>
                         </table>
                     </div>
-                <a class="test_manage_btn" href="/Group">서비스 추가하기</a>
+                <a class="test_manage_btn" href="/Group">그룹 관리</a>
                 
         </div>
     </div>
 </form>
+
+<!--
 
 <div class="justBox">
 
@@ -76,3 +79,5 @@
     
       </form>
 </div>
+
+-->

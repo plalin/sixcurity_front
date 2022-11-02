@@ -8,6 +8,8 @@
 	import Login from '../Component/Login/Login.svelte';
 	import SignIn from '../Component/SignIn/SignIn.svelte';
 	import Mainpage from '../Component/Mainpage/Mainpage.svelte';
+	import Group from '../Component/Group/Group.svelte';
+	import Log from '../Component/Log/Log.svelte';
 	
 
 	import Router from 'svelte-spa-router';
@@ -19,6 +21,8 @@
 		'/Login':Login,
 		'/SignIn':SignIn,
 		'/Mainpage':Mainpage,
+		'/Group':Group,
+		'/Log':Log,
 	};
 </script>
 
