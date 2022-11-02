@@ -33,8 +33,46 @@
                 <a class="test_manage_btn" href="/Group">서비스 추가하기</a>
                 
         </div>
-
     </div>
-
-
 </form>
+
+<div class="justBox">
+
+    <form use:form>
+
+        <div class="input" style="width: 500px; height:300px; margin-right:50px">
+            <form class="loginBox" method="POST" action="/group_deposit">
+              <div class="inputBox">
+                <input type="text" id="id" name="group_deposit_id" placeholder="Enter your group id" >
+              </div>
+              <div class="inputBox">
+                <input type="password" id="id" name="groupd_deposit_amount" placeholder="Enter amount" >
+              </div>
+              <div class="btn">
+                <button type="submit" class="loginBtn"><strong>Deposit</strong></button><br>
+              </div>
+            </form>
+            
+          </div>
+    
+      </form>
+    
+      <form use:form>
+    
+        <div class="input" style="width: 500px; height:300px; margin-left:50px" >
+            <form class="loginBox" method="POST" action="/group_withdraw">
+              <div class="inputBox">
+                <input type="text" id="id" name="group_withdraw_id" placeholder="Enter your group id" >
+              </div>
+              <div class="inputBox">
+                <input type="password" id="id" name="group_withdraw_amount" placeholder="Enter amount" >
+              </div>
+              <div class="btn">
+                <button type="submit" class="loginBtn"><strong>Withdraw</strong></button><br>
+              </div>
+            </form>
+            
+          </div>
+    
+      </form>
+</div>
