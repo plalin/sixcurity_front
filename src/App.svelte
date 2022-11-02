@@ -1,11 +1,14 @@
 <script>
 	export let name;
 
+
 	import Home from '../Component/Home/Home.svelte';
 	import Contact from '../Component/Contact/Contact.svelte';
 	import Header from '../Component/Header/Header.svelte';
 	import Login from '../Component/Login/Login.svelte';
 	import SignIn from '../Component/SignIn/SignIn.svelte';
+	import Mainpage from '../Component/Mainpage/Mainpage.svelte';
+	
 
 	import Router from 'svelte-spa-router';
 
@@ -15,6 +18,7 @@
 		'/Contact2/test':Contact,
 		'/Login':Login,
 		'/SignIn':SignIn,
+		'/Mainpage':Mainpage,
 	};
 </script>
 
@@ -23,7 +27,6 @@
 	<Router {routes}/>
 
 	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
 
 </main>
 
